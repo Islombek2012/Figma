@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.parent{
+    display: flex;
+    position: absolute;
+}
+.left{
+    width: 600px;
+    height: 782px;
+    background-image: url(./rasmlar/Rectangle\ 1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text h2{
+    max-width: 285px;
+    color: white;
+    font-size: 24px;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-wrap: break-word
+}
+.text button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 164px;
+    padding: 15px;
+    background-color: #1E90FF;
+    color: white;
+    font-size: 16px;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    border: 0;
+    gap: 10px;
+    margin-top: 24px;
+}
+.text2 h1{
+    color: #222222;
+    font-size: 24px;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    margin-bottom: 24px;
+    margin-left: 56px;
+    margin-top: 30px;
+}
+.text2 hr{
+    margin-left: 56px;
+}
+.home{
+    display: flex;
+    margin-top: 24px;
+    margin-left: 54px;
+}
+.span{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+.span span{
+    color: #888888;
+    font-size: 14px;
+    font-family: Roboto Condensed;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.tex h2{
+    color: #222222;
+    font-size: 18px;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    margin-left: 16px;
+}
+.tex3 h2{
+    max-width: 307px;
+    color: #222222;
+    margin-left: 16px;
+    font-size: 18px;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-wrap: break-word
+}
+.tex2 h2{
+    max-width: 307px;
+    color: #222222;
+    font-size: 18px;
+    margin-left: 16px;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-wrap: break-word
+}
+.but{
+    width: 492px;
+    color: white;
+    background-color: #1E90FF;
+    font-size: 14px;
+    padding: 12px;
+    border: 0;
+    font-family: Roboto Condensed;
+    font-weight: 700;
+    margin-left: 56px;
+    margin-top: 23px;
+    word-wrap: break-word
+}

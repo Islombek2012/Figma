@@ -1,0 +1,12 @@
+@media (max-width:1000px) {
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        background-position: left;
+        text-align: center;
+    }
+}
