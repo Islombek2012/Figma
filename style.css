@@ -122,6 +122,7 @@
     color: #1E90FF;
     cursor: pointer;
 }
+
 .info h3:active{
     color: rgba(30, 144, 255, 0.60);
     cursor: pointer;
@@ -184,6 +185,10 @@
         flex-direction: column;
         align-items: center;
     }
+    .right{
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
 }
 
 @media (max-width:600px){
@@ -193,6 +198,7 @@
     .left{
         height: 100vh;
     }
+    
 }
 
 @media (max-width: 430px){
@@ -206,5 +212,8 @@
    }
    .info{
     padding: 16px 0 0 0;
+   }
+   .right__btn{
+    margin-bottom: 40px;
    }
 }
